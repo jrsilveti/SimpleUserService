@@ -1,7 +1,7 @@
-package com.silveti.dailypsalmprovider.controller;
+package com.silveti.simpleuserservice.controller;
 
-import com.silveti.dailypsalmprovider.model.User;
-import com.silveti.dailypsalmprovider.service.UserService;
+import com.silveti.simpleuserservice.model.User;
+import com.silveti.simpleuserservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

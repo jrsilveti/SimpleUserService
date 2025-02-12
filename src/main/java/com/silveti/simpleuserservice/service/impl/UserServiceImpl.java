@@ -1,8 +1,8 @@
-package com.silveti.dailypsalmprovider.service.impl;
+package com.silveti.simpleuserservice.service.impl;
 
-import com.silveti.dailypsalmprovider.model.User;
-import com.silveti.dailypsalmprovider.repository.UserRepository;
-import com.silveti.dailypsalmprovider.service.UserService;
+import com.silveti.simpleuserservice.model.User;
+import com.silveti.simpleuserservice.repository.UserRepository;
+import com.silveti.simpleuserservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
