@@ -8,6 +8,12 @@ function App() {
         password: '',
     });
 
+    const payload = {
+        user_name: '',
+        user_email: '',
+        user_password: ''
+    };
+
     const [errors, setErrors] = useState({
         username: '',
         email: '',
@@ -46,12 +52,33 @@ function App() {
         return valid;
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         if (validateForm()) {
             console.log('Form submitted:', formData);
+            payload.user_name = formData.username;
+            payload.user_email = formData.email;
+            payload.user_password = formData.password;
+
+            try {
+                const response = await fetch('http://localhost:8080/users/create', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(payload),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+            } catch (error) {
+                console.error('There was an error sending the data:', error);
+            }
+
             alert('User Registered!');
         }
+
     };
 
     return (
