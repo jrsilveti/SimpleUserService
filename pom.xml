@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.silveti</groupId>
-	<artifactId>dailypsalmprovider</artifactId>
+	<artifactId>simpleuserservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dailypsalmprovider</name>
-	<description>A personal spring boot project to provide a new psalm to you daily</description>
+	<name>simpleuserservice</name>
+	<description>A small project to showcase my programming skills</description>
 	<url/>
 	<licenses>
 		<license/>
