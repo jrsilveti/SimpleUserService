@@ -1,10 +1,10 @@
-package com.silveti.dailypsalmprovider;
+package com.silveti.simpleuserservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DailyPsalmProviderApplicationTests {
+class SimpleUserServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.silveti.dailypsalmprovider.model;
+package com.silveti.simpleuserservice.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;

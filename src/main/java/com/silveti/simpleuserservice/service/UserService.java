@@ -1,6 +1,6 @@
-package com.silveti.dailypsalmprovider.service;
+package com.silveti.simpleuserservice.service;
 
-import com.silveti.dailypsalmprovider.model.User;
+import com.silveti.simpleuserservice.model.User;
 import org.springframework.stereotype.Service;
 
 @Service

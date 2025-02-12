@@ -1,13 +1,13 @@
-package com.silveti.dailypsalmprovider;
+package com.silveti.simpleuserservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DailyPsalmProviderApplication {
+public class SimpleUserServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DailyPsalmProviderApplication.class, args);
+		SpringApplication.run(SimpleUserServiceApplication.class, args);
 	}
 
 }
